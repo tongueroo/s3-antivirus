@@ -4,7 +4,7 @@
 
 [![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
 
-Detects if files uploaded to s3 contain a virus with ClamAV and auto-deletes or tags them.  Works by processing an SQS Queue that contain messages from [S3 Bucket Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-event-notifications.html).
+Detects if files uploaded to s3 contain a virus with [ClamAV](https://www.clamav.net/) and auto-deletes or tags them.  Works by processing an SQS Queue that contain messages from [S3 Bucket Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-event-notifications.html).
 
 ## Usage
 
