@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-s3"
   spec.add_dependency "aws-sdk-sns"
   spec.add_dependency "aws-sdk-sqs"
+  spec.add_dependency "json"
   spec.add_dependency "memoist"
   spec.add_dependency "rainbow"
   spec.add_dependency "recursive-open-struct"
